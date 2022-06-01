@@ -1,6 +1,6 @@
 package com.generation.f20220530;
 
-import jdk.swing.interop.SwingInterOpUtils;
+import com.generation.f20220531.Cliente;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -111,11 +111,11 @@ public class Main {
 
         }
 
-
-
-
-
-
+/**Todo esto gracias a que agregamos getter a setter en la clase que corresponde**/
+        Cliente cliente = new Cliente();
+        cliente.modificarAtributo();
+        cliente.setNombre("ignacio"); //asigno
+        System.out.println(cliente.getNombre()); //consultar el dato
 
 
         //Constructor con parametros
